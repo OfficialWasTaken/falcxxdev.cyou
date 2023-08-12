@@ -5,14 +5,11 @@ const { data }: any = await useFetch('/api/sanity?schema=albums&pure=true');
 <template>
     <div class="my-[14vh] lg:my-[20vh]">
         <div class="flex flex-col" v-motion-slide-visible-once-left>
-            <h2 class="text-6xl font-bold leading-[1.2]">Hobbies</h2>
+            <h2 class="text-6xl font-bold leading-[1.2]">Gallery</h2>
             <p class="mt-5 text-[#8f9094]">
-                I love doing my hobbies in the outside. My main hobby is
-                <span class="text-[#3CCF91] font-semibold">Photography</span>.
+                I love working with hair styling. I take photos of my clients!
                 <br />
-                Here's what I've been taking on.
-                <br />
-                <code class="text-sm text-pink-500 font-bold uppercase">* Album will be updated every time.</code>
+                <code class="text-sm text-pink-500 font-bold uppercase">* You can find the latest photos on my social media.</code>
             </p>
             <hr class="mt-5 opacity-[0.06] border-b-[1px]" />
         </div>
