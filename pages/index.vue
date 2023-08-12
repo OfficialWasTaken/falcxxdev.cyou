@@ -7,7 +7,7 @@ const { data }: any = await useFetch('/api/sanity?schema=home');
         <div class="relative">
             <img class="dots" src="https://svgsilh.com/svg/26432.svg" alt="Dots" v-motion-slide-visible-bottom />
             <h1 class="text-2xl lg:text-3xl z-1 font-semibold text-[#3CCF91] my-1" v-motion-slide-visible-left>
-                Hey there!, I'm-
+                Hey guys, I'm
             </h1>
         </div>
         <h2 class="text-6xl lg:text-8xl z-1 font-extrabold my-1" v-motion-slide-visible-bottom>{{ data.name }}.</h2>
@@ -19,9 +19,9 @@ const { data }: any = await useFetch('/api/sanity?schema=home');
         </div>
         <div class="mt-10">
             <p class="text-lg lg:text-xl text-[#8F9094]" v-motion-slide-visible-left>
-                🚀 Exploring opportunities and side projects.
+                💈 Professional Hair Stylist 
                 <br />
-                💻 Currently specializing in <span class="text-[#3CCF91] font-semibold">Front-end Development</span>.
+                💻 Currently working at <span class="text-[#3CCF91] font-semibold">Java Hair Company</span>.
             </p>
         </div>
         <div class="mt-10">
