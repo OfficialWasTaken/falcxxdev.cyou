@@ -22,13 +22,13 @@
                         ><span class="md:hidden"><Icon name="material-symbols:home-rounded" /></span>
                         <span class="hidden md:block">Home</span></NuxtLink
                     >
-                    <NuxtLink to="/projects" class="navbar__lnk" aria-label="Projects page"
+                    <NuxtLink to="/services" class="navbar__lnk" aria-label="Projects page"
                         ><span class="md:hidden"><Icon name="material-symbols:work" /></span>
-                        <span class="hidden md:block">Projects</span></NuxtLink
+                        <span class="hidden md:block">Services</span></NuxtLink
                     >
-                    <NuxtLink to="/hobbies" class="navbar__lnk" aria-label="Hobbies page"
+                    <NuxtLink to="/gallery" class="navbar__lnk" aria-label="Hobbies page"
                         ><span class="md:hidden"><Icon name="ion:camera-sharp" /></span>
-                        <span class="hidden md:block">Hobbies</span></NuxtLink
+                        <span class="hidden md:block">Gallery</span></NuxtLink
                     >
                     <NuxtLink to="/about" class="navbar__lnk" aria-label="About page"
                         ><span class="md:hidden"><Icon name="mdi:account-circle" /></span>
